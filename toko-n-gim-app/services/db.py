@@ -4,7 +4,7 @@ db = mysql.connector.connect(
     host = 'localhost',
     user = 'root',
     password = '',
-    database = ''
+    database = ['db_name']
 )
 
 def insert_item(kode_menu, nama_menu, harga_menu, stok_menu):
